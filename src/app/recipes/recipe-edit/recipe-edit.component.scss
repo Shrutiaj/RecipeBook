@@ -1,0 +1,12 @@
+@mixin customMargin($side, $marginVal) {
+  margin-#{$side}: $marginVal;
+}
+
+.mt-10 {
+  @include customMargin(top, 10px);
+}
+
+input.ng-invalid.ng-touched,
+textarea.ng-invalid.ng-touched {
+  border: 1px solid red;
+}
