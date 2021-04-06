@@ -1,5 +1,11 @@
 # RecipeBook
 
+Recipe Book is the app to add and maintain the recipes. It can create and authenticate users and fetch the initial list of recipes for the athenticated users
+
+It has login/sign-up screen where user can sign-up for a new account or login if already has an account. User can then fetch the list of recipes, add more recipes to the list, edit the existing recipes and all the data to the server. Add recipe ingredients to the shopping list, edit the shopping list by adding/deleting from the list.
+
+It uses firebase as the backend to store users and recipes.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
 
 ## Development server
